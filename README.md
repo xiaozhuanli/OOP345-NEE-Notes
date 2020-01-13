@@ -39,7 +39,7 @@ By doing this you will only lose the mark for the parts you got help for, and th
 [Installing tortoise git (a git integration with windows file explorer)](https://www.youtube.com/watch?v=pttIoMyyMaM) <br />
 
 ## Lecture Videos
-TBA
+[youtube playlist](https://www.youtube.com/playlist?list=PLxB4x6RkylotlpOf_RkpkSoX3AhYT1cem)<br />
 
 
 ## Fardad's Schedule
