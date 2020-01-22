@@ -6,6 +6,11 @@
 [Subject timeline](https://scs.senecac.on.ca/~oop345/pages/timeline.html)<br />
 [Online verions of the notes sold in the bookstore](https://scs.senecac.on.ca/~oop345/pages/content/index.html)<br />
 [Workshops](https://github.com/Seneca-345305/OOP-Workshops)<br />
+## Lab Attendance
+In order for your in-lab submission to be valid, you must execute the attendance submission from a lab computer as follows:<br />
+Make sure you have only one connection open to Matrix and then execute the follwing:<br />
+**~fardad.soleimanloo/submit 345/NEE/WS##/attendance**  (**##** => Workshop number) <br />
+If you do not execute the above command during the lab you are attending, any work submitted for that lab will get the mark ZERO
 ## Quizzes and how to reflect on them 
 Your quizzes are marked as follows:<br />
 Each question has 2 marks:<br />
