@@ -257,10 +257,10 @@ style="vertical-align: middle; text-align: center; background-color: white;"><br
 </tr>
 </tbody>
 </table>
-<br>
+<br />
 Note: For Office hours I will be sitting at the tables in front of the
-office door. <br>
-If I am not there, please go to the reception desk and ask
+office door. <br />
+If I am not there, please either call me at: 4164915050 x 24120 or <br /> 
+go to the reception desk and ask
 one of the
-secretaries to call me out.<br>
-<br>
+secretaries to call me out.<br />
