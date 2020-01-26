@@ -6,6 +6,11 @@
 [Subject timeline](https://scs.senecac.on.ca/~oop345/pages/timeline.html)<br />
 [Online verions of the notes sold in the bookstore](https://scs.senecac.on.ca/~oop345/pages/content/index.html)<br />
 [Workshops](https://github.com/Seneca-345305/OOP-Workshops)<br />
+## Lab Attendance
+In order for your in-lab submission to be valid, you must execute the attendance submission from a lab computer as follows:<br />
+Make sure you have only one connection open to Matrix and then execute the follwing:<br />
+**~fardad.soleimanloo/submit 345/NEE/WS##/attendance**  (**##** => Workshop number) <br />
+If you do not execute the above command during the lab you are attending, any work submitted for that lab will get the mark ZERO
 ## Quizzes and how to reflect on them 
 Your quizzes are marked as follows:<br />
 Each question has 2 marks:<br />
@@ -31,7 +36,14 @@ Write exactly which part of the code of the workshops or the assignment are give
 You need to mention the workshop name or assignment name and also the file name and the parts in which you received the code for help.<br />
 Finally add your name and student number at the bottum.<br /><br />
 By doing this you will only lose the mark for the parts you got help for, and the person helping you will be clear of any wrong doing. 
+## .bash_profile or .bashrc alieses
+Set these alieses in .bash_profile or .bashrc in your home directory of Matrix for your compiler settings and ease of submitting works:
+```
+export LD_LIBRARY_PATH=/usr/local/gcc/9.1.0/lib64:$LD_LIBRARY_PATH
+alias G++="/usr/local/gcc/9.1.0/bin/g++ -Wall -std=c++17"
 
+alias fsub="~fardad.soleimanloo/submit"
+```
 
 ## Git
 [Pro Git Book](https://git-scm.com/book): This is and online complete reference to git and its commands (command line). I recommend reading chapter 1 and 2 and glancing chapter 6. This will be more than enough to get your through atleast first three semesters of college, if not all. <br />
