@@ -21,6 +21,9 @@
   <ItemGroup>
     <ClCompile Include="prg.cpp" />
   </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="colors.h" />
+  </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <ProjectGuid>{D4B93D6A-18AA-449E-B917-B10D102A2BE5}</ProjectGuid>

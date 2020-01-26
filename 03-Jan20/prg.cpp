@@ -1,8 +1,11 @@
-#define TRACE__  // comment to NOT to trace
+#define TRACE__  // comment NOT to trace
 #include <iostream>
+#include "colors.h"
 using namespace std;
-const int ReadBufferSize = 50;
+const int ReadBufferSize = 10;
 const char* nl = "\n";
+
+
 class Name;
 ostream& operator<< (ostream& os, const Name& N);
 
@@ -10,13 +13,13 @@ class {
 public:
    auto& operator<<(const char* message) {
 #ifdef TRACE__
-      cout << message;
+      cout << col_yellow <<  message << col_end;
 #endif 
       return *this;
    }
    auto& operator<<(const Name& N) {
 #ifdef TRACE__
-      cout << N;
+      cout << col_cyan<<  N << col_end;
 #endif 
       return *this;
    }
@@ -38,15 +41,16 @@ private:
       strcpy(m_value, value);
    }
 public:
-   Name(const char* value = nullptr){
+   Name(const char* value = nullptr) {
       if (value) {
          allocateAndcopy(value);
       }
       trace << "Creating " << *this << nl;
    }
    Name(const Name& N){
-      trace << "Copying " << N << nl << "   ";
+      trace << "Copying " << N << " by" << nl << "   ";
       operator=(N);
+      //*this = N;
    }
    Name& operator=(const Name& N) {
       if (this != &N) {
@@ -58,14 +62,15 @@ public:
    }
    Name& operator=(Name&& N) {
       if (this != &N) {
-         trace << "(Move assignment), Moving " << N << " into " << *this << " by assignment" << nl;
+         trace << "(Move assignment), Moving " << N << " into " << *this << nl;
+         delete[] m_value;
          m_value = N.m_value;
          N.m_value = nullptr;
       }
       return *this;
    }
    Name(Name&& N) {
-      trace << "(Move constructor), Taking ownership of " << N << " in a new Name" << nl << "    ";
+      trace << "(Move constructor), Taking ownership of " << N << " by" << nl << "    ";
       operator=(move(N));
    }
    ostream& print(ostream& os)const {
@@ -77,19 +82,19 @@ public:
    }
    istream& read(istream& is) { // reading any size of dynamically into name
       char* data = new char[ReadBufferSize];
-      char* str = data;
+      char* readFrom = data;
       int noOfBuffers = 1;
       bool done;
       do {
          done = true;
-         cin.getline(str, ReadBufferSize, '\n'); // if cin fails, it means entry was greater than 50 chars
+         cin.getline(readFrom, ReadBufferSize, '\n'); // if cin fails, it means entry was greater than 50 chars
          if (cin.fail()) {
             noOfBuffers++;  // keep track of number of buffers to add
             char* temp = new char[(ReadBufferSize - 1) * noOfBuffers + 1]; // allocate bigger memory
             strcpy(temp, data); // copy the already read test into temp
             delete[] data;  // delete the old (too short) memory
             data = temp;    // point to newly large allocated memory 
-            str = data + (ReadBufferSize - 1) * (noOfBuffers - 1); // set the read pointer to continue reading the rest of text
+            readFrom = data + (ReadBufferSize - 1) * (noOfBuffers - 1); // set the read pointer to continue reading the rest of text
             cin.clear();   // clear cin to read again
             done = false;  //we are not done yet
          }
