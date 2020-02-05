@@ -15,19 +15,13 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="prg.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
+    <ClInclude Include="Stack.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Array.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="KVP.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="bigger.h">
+    <ClCompile Include="StackMain.cpp">
       <Filter>Source Files</Filter>
-    </ClInclude>
+    </ClCompile>
   </ItemGroup>
 </Project>

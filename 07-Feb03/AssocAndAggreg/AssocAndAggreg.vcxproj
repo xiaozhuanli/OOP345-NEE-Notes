@@ -20,8 +20,8 @@
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
-    <ProjectGuid>{20C428DC-63E4-42B8-ADEE-DB6B6EA711EF}</ProjectGuid>
-    <RootNamespace>My06Jan29</RootNamespace>
+    <ProjectGuid>{DE0E89D8-B4E2-4F8D-BA2C-F86A2B8896D2}</ProjectGuid>
+    <RootNamespace>AssocAndAggreg</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -138,12 +138,17 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="Book.cpp" />
+    <ClCompile Include="IOAble.cpp" />
+    <ClCompile Include="Library.cpp" />
     <ClCompile Include="prg.cpp" />
+    <ClCompile Include="Title.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Array.h" />
-    <ClInclude Include="bigger.h" />
-    <ClInclude Include="KVP.h" />
+    <ClInclude Include="Book.h" />
+    <ClInclude Include="IOAble.h" />
+    <ClInclude Include="Library.h" />
+    <ClInclude Include="Title.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
