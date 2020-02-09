@@ -9,6 +9,11 @@ public:
    virtual void hideSubContent() = 0;
    virtual ~IOAble();
 };
+
+
+
+
+
 // this is an IOAble manipulator to change the state of IOAble in next
 // printout
 class HideSubContent {

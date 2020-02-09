@@ -7,7 +7,7 @@ class Node {
    Node<T>* m_next = nullptr;
    static size_t num;
    T m_data;
-   Node(T data, Node<T>* next = nullptr) {
+   Node(T data, Node<T>* next) {
       m_next = next;
       m_data = data;
       num++;
@@ -19,9 +19,6 @@ class Node {
 };
 template<typename T>
 size_t Node<T>::num = 0;
-
-
-
 template <typename T>
 class Stack {
    Node<T>* top = nullptr;
@@ -37,6 +34,9 @@ public:
       top = top->m_next;
       delete todel;
       return val;
+   }
+   bool isEmtpy() {
+      return top == nullptr;
    }
    operator bool() {
       return top != nullptr;
