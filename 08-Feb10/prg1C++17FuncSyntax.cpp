@@ -1,6 +1,6 @@
 #include <iostream>
 using namespace std;
-#include "Int.h"
+#include "Int1.h"
 
 int main() {
    Int val;
