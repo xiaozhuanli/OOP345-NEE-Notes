@@ -6,6 +6,10 @@
 [Subject timeline](https://scs.senecac.on.ca/~oop345/pages/timeline.html)<br />
 [Online verions of the notes sold in the bookstore](https://scs.senecac.on.ca/~oop345/pages/content/index.html)<br />
 [Workshops](https://github.com/Seneca-345305/OOP-Workshops)<br />
+## Online Sessions
+If you are not a student of OOP345 NEE, At the time of the Session the following "Join Session" link will be activated <br />
+Click on it and use your real name to join. If you do not, you will be kicked out of the session <br />
+[Join Session (Session Ended)](https://connect.rna2.blindsidenetworks.com/invite/to?c=Ont9BDxUOv9ngfCxLrEexI_8zWN5rpvBu9bGzHiX_vM&m=731e148938913bece8fe354660fc5f0df23b6396&t=1584556455020&u=senecacollege) <br />
 ## Lab Attendance
 In order for your in-lab submission to be valid, you must execute the attendance submission from a lab computer as follows:<br />
 Make sure you have only one connection open to Matrix and then execute the follwing:<br />
