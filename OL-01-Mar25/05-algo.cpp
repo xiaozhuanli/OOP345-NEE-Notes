@@ -74,7 +74,7 @@ int main() {
    for (i = 0; i < E.size(); i++)
       cout << setw(2) << (i + 1) << "- " << E[i] << endl;
    i = 0;
-   for (auto elm : E) {
+   for(auto elm: E) {
       cout << setw(2) << (++i) << "- " << elm << endl;
    }
 
@@ -96,7 +96,7 @@ int main() {
    for_each(owing.begin(), owing.end(), [](double val) {cout << setprecision(2) << val << " "; });
    cout << endl;
    for (i = 0; i < E.size(); i++) {
-      cout << setw(2) << (i + 1) << "- " << E[i] << ", owing tax: " << owing[i] << endl;
+      cout << setw(2) << (i + 1) << "- " << E[i] <<", owing tax: " << owing[i] << endl;
    }
 
 
