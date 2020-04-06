@@ -1,3 +1,3 @@
-#define Pointer *
-#define TargetOf *
-#define AddressOf &
+
+
+int a[200];
