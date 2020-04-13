@@ -9,7 +9,7 @@
 ## Online Sessions
 If you are not a student of OOP345 NEE, At the time of the Session the following "Join Session" link will be activated <br />
 Click on it and use your real name to join. If you do not, you will be kicked out of the session <br />
-[Join Session](https://connect.rna2.blindsidenetworks.com/invite/to?c=P7AlFn9LdPQEC7IW9Ab9we2uwLDsN5KsB0HE0VJYsoo&m=731e148938913bece8fe354660fc5f0df23b6396&t=1586369792262&u=senecacollege) within the [Class Schedule](https://github.com/Seneca-345305/OOP345-NEE-Notes/blob/master/README.md#fardads-schedule) <br />
+[Join Session](https://connect.rna2.blindsidenetworks.com/invite/to?c=12V0hZxi-LsV7h_qGUW5eNGhDxIufPAIGq5BVj5B9jU&m=731e148938913bece8fe354660fc5f0df23b6396&t=1586798865222&u=senecacollege) within the [Class Schedule](https://github.com/Seneca-345305/OOP345-NEE-Notes/blob/master/README.md#fardads-schedule) <br />
 ## Lab Attendance
 In order for your in-lab submission to be valid, you must execute the attendance submission from a lab computer as follows:<br />
 Make sure you have only one connection open to Matrix and then execute the follwing:<br />
